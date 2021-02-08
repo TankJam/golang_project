@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f89eafff-c622-49ab-ba47-4b7d8a42448f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/github.com/gin-gonic/gin" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1mgrxC4th7Pfrzlzx6j2Kvcsodt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/code/part05/tcp_demo/client" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\go\src\code\part05\tcp_demo\client" />
+      <recent name="D:\go\src\code\part04\goroutine_lock_w_r" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\go\src\code\part06\test_case\split" />
+      <recent name="D:\go\src\code\part02" />
+      <recent name="D:\go\src\code\part01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build code/part02/struct04">
+    <configuration name="go build code/part02/struct04" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/code/part02/struct04/main.go" />
+      <package value="code/part02/struct04" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build code/struct02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/code/struct02/main.go" />
+      <package value="code/struct02" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build code/struct03" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/code/struct03/main.go" />
+      <package value="code/struct03" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/code/struct03/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build code/part02/struct04" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build code/struct03" />
+        <item itemvalue="Go Build.go build code/struct02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1611135322247">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1611135322247" />
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1610014271967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.108.1920.1040@0.0.1536.824" timestamp="1610014271967" />
+    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1610014271967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.824/-1920.108.1920.1040@0.0.1536.824" timestamp="1610014271967" />
+    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1610014271967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.824/-1920.108.1920.1040@0.0.1536.824" timestamp="1610014271967" />
+    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1610014271967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.824/-1920.108.1920.1040@0.0.1536.824" timestamp="1610014271967" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1610077071026">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824/-1920.108.1920.1040@0.0.1536.824" timestamp="1610077071026" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611136034864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1611136034864" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.108.1920.1040@0.0.1536.824" timestamp="1610070678500" />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+mode: set
+code/part06/test_case/split/split.go:8.41,10.14 2 1
+code/part06/test_case/split/split.go:17.2,18.8 2 1
+code/part06/test_case/split/split.go:10.14,16.3 3 1
