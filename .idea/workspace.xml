@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f89eafff-c622-49ab-ba47-4b7d8a42448f" name="Default Changelist" comment="" />
+    <list default="true" id="f89eafff-c622-49ab-ba47-4b7d8a42448f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/gin-gonic/gin/gin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/gin-gonic/gin/gin.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +39,7 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/github.com/gin-gonic/gin" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -56,7 +61,10 @@
     <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/code/part07/gin_04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/code/part07/gin_05" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -66,11 +74,11 @@
       <recent name="D:\go\src\code\part01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\go\src\code\part07\gin_05" />
       <recent name="D:\go\src\code\part07\gin_04" />
       <recent name="D:\go\src\code\part07\gin_03" />
       <recent name="D:\go\src\code\part07\gin_02" />
       <recent name="D:\go\src\code\part07\gin_01" />
-      <recent name="D:\go\src\code\part05\tcp_demo\client" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build code/part02/struct04">
@@ -169,5 +177,9 @@
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1611136034864" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.108.1920.1040@0.0.1536.824" timestamp="1610070678500" />
+    <state x="-1238" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1614072333496">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1238" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614072333496" />
   </component>
 </project>

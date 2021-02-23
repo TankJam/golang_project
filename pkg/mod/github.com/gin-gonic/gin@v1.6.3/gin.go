@@ -12,7 +12,6 @@ import (
 	"os"
 	"path"
 	"sync"
-
 	"github.com/gin-gonic/gin/internal/bytesconv"
 	"github.com/gin-gonic/gin/render"
 )
@@ -359,13 +358,23 @@ func (engine *Engine) RunListener(listener net.Listener) (err error) {
 
 // ServeHTTP conforms to the http.Handler interface.
 func (engine *Engine) ServeHTTP(w http.ResponseWriter, req *http.Request) {
+	/*
+	5.使用enging对象池，可以重复利用对象池中的对象，
+	减少资源的占用，并且可以减少GC的执行，提供性能
+	*/
+	// 通过对象池获取对象，里面应该使用类似单利的操作
+	// .(*Context) --> 类型断言，判断.Get() 返回的对象类型是否是Context类型
 	c := engine.pool.Get().(*Context)
+	// 清空 responseWriter 数据
 	c.writermem.reset(w)
+	// 每次请求过来都覆盖上一个context的request
 	c.Request = req
+	// 清空 context 元数据
 	c.reset()
-
+	// 复用"全新"的 context，进入该方法查看出来http请求
+	// 6.处理请求
 	engine.handleHTTPRequest(c)
-
+	// 处理完后放回对象池
 	engine.pool.Put(c)
 }
 
@@ -380,10 +389,14 @@ func (engine *Engine) HandleContext(c *Context) {
 	c.index = oldIndexValue
 }
 
+// 6.请求处理，核心部分
 func (engine *Engine) handleHTTPRequest(c *Context) {
+	// 获取请求方法
 	httpMethod := c.Request.Method
+	// 获取路由
 	rPath := c.Request.URL.Path
 	unescape := false
+
 	if engine.UseRawPath && len(c.Request.URL.RawPath) > 0 {
 		rPath = c.Request.URL.RawPath
 		unescape = engine.UnescapePathValues
@@ -394,7 +407,10 @@ func (engine *Engine) handleHTTPRequest(c *Context) {
 	}
 
 	// Find root of the tree for the given HTTP method
+	// 做请求分发
 	t := engine.trees
+	// i, tl := 0, len(t) 解压赋值，只调用一次len() 只获取一次t的长度
+	// 该方式，相比较  for i :=0; i < len(t); i++ {} 减少了调用len的次数
 	for i, tl := 0, len(t); i < tl; i++ {
 		if t[i].method != httpMethod {
 			continue
@@ -410,6 +426,7 @@ func (engine *Engine) handleHTTPRequest(c *Context) {
 			c.writermem.WriteHeaderNow()
 			return
 		}
+		// 请求分发，通过
 		if httpMethod != "CONNECT" && rPath != "/" {
 			if value.tsr && engine.RedirectTrailingSlash {
 				redirectTrailingSlash(c)
